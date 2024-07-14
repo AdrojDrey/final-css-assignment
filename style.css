@@ -1,0 +1,54 @@
+main .hero .choose{
+        width: 100%; 
+        background-color: rgb(240, 238, 235);
+        height: 70vh;
+        opacity: 0.7;
+    }
+    main .hero .choose .easy {
+        width: 90%;
+        display: block;
+        margin: 30px 30px;
+        /* margin-bottom: 10px; */
+    }
+    main .hero .choose .easy p{
+       text-align: justify;
+    }
+    main .hero .choose .icon {
+        width: 90%;
+        display: flex;
+        margin: 15px 15px;
+        align-items: center;
+        justify-content: center;
+        /* background-color: aqua; */
+    }
+    main .hero .choose .icon .iconic {
+        width: 25%;
+        height: 40vh;
+        margin: 15px 15px;
+        /* background-color: #ffff; */
+        box-shadow: 5px 5px solid black;
+        border: 5px 5px green;
+    }
+    main .hero .choose .icon .iconic .imgg{
+        margin: 10px 15px;
+        width: 100%;
+    }
+    main .hero .choose .icon .iconic .imgg img{
+        width: 2.6rem;
+    }
+    main .hero .choose .icon .banking {
+        width: 80%;
+        flex: auto;
+        display: block;
+       align-items: center;
+        height: fit-content;
+        margin: 10px 10px;
+        /* background-color: red; */
+    }
+    main .hero .choose .icon .banking h1{
+        font-size: 1rem;
+    }
+    main .hero .choose .icon .banking p{
+        font-size: 1em;
+        text-align: start;
+    }
